@@ -1,0 +1,11 @@
+[package]
+name = "lithium"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sheller = "=0.5.3"
+
+[[bin]]
+name = "lithium"
+path = "src/lithium.rs"
